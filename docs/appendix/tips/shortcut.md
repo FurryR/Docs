@@ -1,9 +1,9 @@
 # Saya Util —— 来点好用的缩写
 
 ::: tip
-这章属于 [东西要分类好](../guide/saya.md) 的进阶，你最好现在那一章看完了再看这个
+这章属于 [东西要分类好](/guide/saya.md) 的进阶，你最好现在那一章看完了再看这个
 
-你可能已经在本章之外的地方见过相关内容了（如[Alconna —— 外 星 来 客](../guide/message_parser/alconna.md)）。
+你可能已经在本章之外的地方见过相关内容了（如[Alconna —— 外 星 来 客](/guide/message_parser/alconna.md)）。
 :::
 
 按多数人的口味，类似 `channel.use(...)` 的写法其实并不方便，甚至看起来会很丑（死亡缩进kana）。
@@ -13,7 +13,7 @@
 ::: danger 警告
 **Saya Util** 目前仅适用于替代 `graia.saya.builtin.broadcast.ListenerSchema`。
 
-如果你需要使用其他例如 `SchedulerSchema`、`ConsoleSchema` 等元信息模板（Schema，在[此处](../guide/saya.md#saya-是什么)提及过），
+如果你需要使用其他例如 `SchedulerSchema`、`ConsoleSchema` 等元信息模板（Schema，在[此处](/guide/saya.md#saya-是什么)提及过），
 那么你目前仍需要以 `@channel.use(...)` 的方法使用。
 :::
 
